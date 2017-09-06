@@ -2,13 +2,14 @@
 #include<conio.h>
 void  main()
 {
-int n count =0;
-printf("enter the integer");
-scanf("%d",&n);
-while(n!=0)
-{
-n/=10;
-++count;
-}
-printf(" integer is");
+int i,num,sum arr[50];
+  printf("enter the number");
+  scanf("%d",&num);
+  printf("enter the values");
+  for(i=0;i<num;i++)
+  scanf("%d",&arr[i]);
+  sum=0;
+  for(i=0;i<num;i++)
+    printf("enter the array");
+  printf("sum is");
 }

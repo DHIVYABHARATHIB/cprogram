@@ -7,7 +7,7 @@ int i,j,k;
 printf("enter the string");
 scanf("%d",&srt[50]);
 printf("%d",str[50);
-for(i=0;str[i]='/0\;i++)
+for(i=0;str[i]='/0';i++)
 {
 k=i-1;
 }

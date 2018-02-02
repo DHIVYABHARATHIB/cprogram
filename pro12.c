@@ -2,17 +2,15 @@
 #include<conio.h>
 void main()
 {
-int n,m,i;
+int n,m;
 printf("enter the number");
 scanf("%d",&n);
- for(i=0;i<=n;i++)
+ for(m=0;m<=n;m++)
  {
    if(n=m*m)
 {
 printf("its a perfect square");
-}}
-else
-{
-printf("not a perfect square");
 }
+ }
+ printf("no");
 }

@@ -1,9 +1,14 @@
 #include<stdio.h>
-#include<math.h>
+#include<conio.h>
 void main()
 {
-int n,k,t;
-printf("the two numbers");
-scanf("%d%d",&n,&k);
-t=n^k;
+  int n,k,s=1;
+  printf("the two no");
+  scanf("%d%d",&n,&k);
+  while(k!=0)
+  {
+    s=s*n;
+    --k;
+  }
+  printf("the value is %d",s);
 }

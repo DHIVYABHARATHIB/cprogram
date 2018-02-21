@@ -8,3 +8,4 @@ for(i=1;i<=n;i++)
 sum=sum+i;
 }
 printf("the sum is%d",sum);
+}

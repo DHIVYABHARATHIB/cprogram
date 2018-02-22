@@ -2,9 +2,9 @@
 #include<conio.h>
 void main()
 {
-int l,b,a;
+float l,b,a;
 printf("enter the breadth and length");
-scanf("%d%d",&l,&b);
+scanf("%f%f",&l,&b);
 a=l*b;
-printf("the area is %d",a);
+printf("the area is %f",a);
 }

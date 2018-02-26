@@ -1,11 +1,11 @@
 #include<stdio.h>
-3include<conio.h>
+#include<conio.h>
 void main()
 {
-int n;
+int d;
 printf("\n enter the number");
-scanf("%d",&n);
-switch(n)
+scanf("%d",&d);
+switch(d)
 {
 case 1:
 printf("A");

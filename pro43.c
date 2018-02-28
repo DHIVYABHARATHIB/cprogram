@@ -2,20 +2,17 @@
 #include<string.h>
 void main()
 {
-char n[100];
-int i;
+char n[10],a[5],b[5];
+int i,j,k,l;
 printf("enter the string");
 scanf("%s",&n);
-for(i=0;n[i]!='\0';i++)
+k=strlen(n);
+l=0;
+for(i=0,j=1;i<k ,j<k;i++ ,j++)
 {
-if(i%2==0)
-{
-printf("the even string is %s",n[i]);
+    a[i]=n[i];
+    b[j]=n[j];
+    l++;
 }
-else
-{
-printf("the odd string is %s",n[i]);
+printf("the even and odd strings are%s%s",a,b);
 }
-}
-}
-
